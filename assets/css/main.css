@@ -2621,7 +2621,7 @@ background-size: cover;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.363);
+  background: rgba(0, 0, 0, 0.301);
 }
 
 .banner-area {
@@ -7896,4 +7896,7 @@ Animate wobble-vertical
       clip-path: inset(0 0 0 0);
       opacity: 1;
   }
+}
+.pad{
+  padding: 5px;
 }
