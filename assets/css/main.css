@@ -2756,6 +2756,11 @@ information sur formation
       font-size: 1.3rem; /* Réduction de la taille du texte pour les petits écrans */
   }
 }
+
+
+.formation {
+  justify-content: center;
+}
 /* Fin information sur formation*/
 .banner-btn-area .icon-1 i {
   position: relative;
