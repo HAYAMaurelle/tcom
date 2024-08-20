@@ -2731,7 +2731,34 @@ p.banner-text {
       padding-right: 10px;
   }
 }
+/*
+information sur formation 
+*/
 
+.responsive-section {
+  font-family: Arial, sans-serif;
+  font-size: 1.5rem; /* Taille de base du texte */
+  line-height: 1.6;
+  padding: 15px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  .responsive-section {
+      font-size: 1.2rem; /* Réduction de la taille du texte pour les écrans moyens */
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-section {
+      font-size: 1rem; /* Réduction de la taille du texte pour les petits écrans */
+  }
+}
+/* Fin information sur formation*/
 .banner-btn-area .icon-1 i {
   position: relative;
   z-index: 1;
